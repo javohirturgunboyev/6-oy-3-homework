@@ -1,0 +1,55 @@
+/* SocialMediaPost.css */
+.post-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .post-content {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .like-button, .dislike-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .like-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .like-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dislike-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .dislike-button:hover {
+    background-color: #c82333;
+  }
+  
